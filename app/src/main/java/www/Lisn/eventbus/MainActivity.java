@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 EventBus.getDefault().postSticky(new StickyEvent("从MainActivity发出的粘性消息"));
                 Intent mIntent=new Intent(MainActivity.this,TwoActivity.class);
                 MainActivity.this.startActivity(mIntent);
-                finish();
+
             }
         });
     }
