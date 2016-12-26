@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import de.greenrobot.event.EventBus;
 
-import static android.R.id.button2;
+
 
 /**
  * 接收顺序
